@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://djt31r3vxsqbh"]
+
+[ext_resource type="Script" path="res://SceneInstance/redcubespawner.gd" id="1_ffh86"]
+[ext_resource type="PackedScene" uid="uid://cdxeatyxno44u" path="res://SceneInstance/RedCube.tscn" id="2_fu74i"]
+
+[node name="Node3D" type="Node3D"]
+script = ExtResource("1_ffh86")
+cube_scene = ExtResource("2_fu74i")
+spawn_interval = 1.2
